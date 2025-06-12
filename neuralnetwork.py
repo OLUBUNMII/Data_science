@@ -1,4 +1,6 @@
 import torch
+import pandas
+import yfinance
 # print("PyTorch version:", torch.__version__)
 import torch.nn as nn
 
