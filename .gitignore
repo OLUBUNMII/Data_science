@@ -1,0 +1,21 @@
+# Virtual env
+venv/
+myvenv/
+.env/
+
+# OS files
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Credentials
+*.json
+*.env
+kaggle.json
+
+# Data
+*.zip
+*.csv
+data/
