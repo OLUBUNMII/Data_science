@@ -1,4 +1,4 @@
-import torch
+# import torch
 import pandas as pd
 import yfinance as yf
 from datetime import datetime, timedelta  
@@ -37,7 +37,7 @@ labels = returns.applymap(label_return)  #.applymap could go away in the future,
 
 # Split data into training and test sets.
 for symbol in symbols:
-    print(f"\nModel for {symbol}")
+    print(f"Model for {symbol}")
     X = returns[[symbol]]
     y = labels[symbol] 
     X_train, X_test, y_train, y_test = train_test_split(X, y,test_size=0.3, shuffle=False) #Test size is 30%
