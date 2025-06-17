@@ -19,3 +19,5 @@ kaggle.json
 *.zip
 *.csv
 data/
+
+asset_classification/venv/
